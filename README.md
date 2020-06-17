@@ -1,8 +1,8 @@
 # FCN-phone-surface-joints-width-detection
 Detect the mobile phone surface seams width defects.  Based on  fully convolutional network and digital image process.
 ## Problem
-- Input: An image containing the appearance of a phone.
-- Output: The maximum width of the phone surface seams.
+- ```Input```: An image containing the appearance of a phone.
+- ```Output```: The maximum width of the phone surface seams.
 ## Methods
 ### Based on Canny algorithm
 Flow chart of Detection<br>
@@ -56,5 +56,7 @@ https://drive.google.com/open?id=15WMDJbFWw3f1qMbTuDO1k4HQ0hyPB4-6<br>
 - https://github.com/OnionDoctor/FCN_for_crack_recognition
 - https://github.com/ry/tensorflow-resnet
 ## TODA
+- Update the code to TensorFlow 2.x.
+- Make more standardized and sufficient data set.
 - Test the Semantic segmentation SOTA network  DeepLab v3+ and the classic network U-Net.
 - Make the model more accurate and faster.
