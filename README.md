@@ -8,6 +8,7 @@ Detect the mobile phone surface seams width defects.  Based on  fully convolutio
 Flow chart of Detection<br>
 ![flow.svg](./tmp/检测流程.svg)
 ### Based on fully convolutional network
+...
 ## Requirements
 ```Recommended to use conda to configure a virtual environment.```
 - Python 3.x
@@ -33,6 +34,12 @@ They are randomly generated proportionally by index.py.
 - ```tmp ```: Temporary storage.
 - ```Dissertation.pdf```: The dissertation of this project.
 ## Usage
+### Download
+1. Download pretrained FCN-VGG16 model and put into folder ```checkpoints```.
+https://drive.google.com/file/d/1W5BEP61GMe3WKuWeOHdpj-0wWrVExIC9/view?usp=sharing
+2. Download dataset.<br>
+dataset 200: https://drive.google.com/file/d/1IOIPm-jBa5zBbdu2LtgI3e7GcQn-OM38/view?usp=sharing.<br>
+dataset 3500: https://drive.google.com/file/d/1kjJHOV5k-6DPzIG9jHX82xYZ_pUjZoYo/view?usp=sharing.
 ### GUI program
 Run directly. To use FCN prediction, you need to download the pre-trained model first.
 - Click the ```选择图片``` button to choose a image file.
@@ -40,9 +47,11 @@ Run directly. To use FCN prediction, you need to download the pre-trained model 
 - Click the ```批处理``` button for batch detection. Batch detection uses the Canny algorithm by default, select the check box to use the FCN method.
 ![gui.png](./tmp/程序界面.PNG)
 ### Train and finetune
+- Download vgg19 pretrained parameters into the root folder.<br>
+https://drive.google.com/open?id=15WMDJbFWw3f1qMbTuDO1k4HQ0hyPB4-6<br>
+...
 ## Results
-
-
+...
 ## Code Reference
 - https://github.com/OnionDoctor/FCN_for_crack_recognition
 - https://github.com/ry/tensorflow-resnet
