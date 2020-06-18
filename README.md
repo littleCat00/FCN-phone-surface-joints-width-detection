@@ -8,6 +8,7 @@ Detect the mobile phone surface seams width defects.  Based on  fully convolutio
 Flow chart of Detection<br>
 ![flow.svg](./tmp/检测流程.svg)
 ### Based on fully convolutional network
+![fcn8.svg](./tmp/fcn8.svg)
 ...
 ## Requirements
 ```Recommended to use conda to configure a virtual environment.```
